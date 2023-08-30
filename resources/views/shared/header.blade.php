@@ -1,4 +1,4 @@
-<header class="">
+<header id="navbar">
     <div class="container d-flex align-items-center justify-content-between">
         <div class="logo">
             <a href="/">
@@ -66,3 +66,5 @@
         </div>
     </div>
 </header>
+<script>
+</script>

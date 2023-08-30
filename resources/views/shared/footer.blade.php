@@ -119,7 +119,7 @@
             <div class="right">Design & developed by <a href="">Redishketch</a></div>
         </div>
     </div>
-    <a class="go-top active" onclick="goTop()">
+    <a class="go-top" onclick="goTop()">
         <img src="{{asset('/images/go_top.png')}}" alt=""/>
     </a>
 </footer>

@@ -3,7 +3,7 @@ header{
     position: fixed;
     width: 100%;
     z-index: 99;
-    background-color: $theme;
+    background-color: transparent;
     transition: all .4s;
     &.fixed{
         transition: all .4s;

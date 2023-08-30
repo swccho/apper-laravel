@@ -94,6 +94,17 @@
             new IntersectionObserver(callback).observe(target);
         });
 
+        window.addEventListener("scroll", (event) => {
+            const navbar = document.getElementById('navbar');
+            const goToo = document.querySelector('.go-top');
+            if (window.pageYOffset > 200) {
+                navbar.classList.add('fixed');
+                goToo.classList.add('active');
+            } else {
+                navbar.classList.remove('fixed');
+                goToo.classList.remove('active');
+            }
+        });
     }
 </script>
 </body>
